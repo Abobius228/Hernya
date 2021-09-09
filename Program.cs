@@ -6,8 +6,10 @@ namespace Hernya
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.WriteLine("Здарова хохлы!");
+            Console.ReadKey();
         }
     }
 }
